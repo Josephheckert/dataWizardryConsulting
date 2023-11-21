@@ -1,0 +1,612 @@
+body {
+    height: 80%;
+}
+
+main {
+    margin-top: 150px;
+    display: block;
+    width: 100%;
+}
+
+@media only screen and (max-width: 415px) {
+
+    body {
+        height: 80%;
+    }
+
+    .home-content {
+        margin-top: 150px;
+        display: block;
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .wizard {
+        width: 80%;
+        margin: 0px auto;
+    }
+
+    .wizard img {
+        width: 100%;
+    }
+
+    .magic {
+        width: 100%;
+        display: block;
+    }
+
+    .magic h3 {
+        font-family: cinzel, 'Times New Roman';
+        font-size: 1.9rem;
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+        color: #59F36D;
+    }
+
+    .magic p {
+        width: 100%;
+        font-family: poppins, 'sans serif';
+        font-size: 1rem;
+        text-align: center;
+        color: #F8F4EA;
+        margin-top: 20px;
+    }
+
+    button {
+        display: block;
+        margin: 30px auto;
+        padding: 10px 40px;
+        background-color: #59F36D;
+        font-family: poppins, 'sans serif';
+        font-weight: 600;
+        font-size: .85em;
+        color: #042F09;
+        border: 1px solid transparent;
+        border-radius: 5px;
+        box-shadow: 2px 2px 10px 0px #00000073;
+    }
+
+}
+
+
+@media only screen and (min-width: 416px) and (max-width: 600px) {
+
+    body {
+        height: 80%;
+    }
+
+    .home-content {
+        display: block;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .wizard {
+        width: 60%;
+        margin: 0px auto;
+    }
+
+    .wizard img {
+        width: 100%;
+    }
+
+    .magic {
+        width: 100%;
+        display: block;
+    }
+
+    .magic h3 {
+        font-family: cinzel, 'Times New Roman';
+        font-size: 1.9rem;
+        width: 100%;
+        text-align: center;
+        margin-top: 40px;
+        color: #59F36D;
+    }
+
+    .magic p {
+        width: 100%;
+        font-family: poppins, 'sans serif';
+        font-size: 1rem;
+        text-align: center;
+        color: #F8F4EA;
+        margin-top: 20px;
+    }
+
+    button {
+        display: block;
+        margin: 50px auto;
+        padding: 10px 40px;
+        background-color: #59F36D;
+        font-family: poppins, 'sans serif';
+        font-weight: 600;
+        font-size: 1em;
+        color: #042F09;
+        border: 1px solid transparent;
+        border-radius: 5px;
+        box-shadow: 2px 2px 10px 0px #00000073;
+    }
+
+}
+
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+
+    body {
+        height: 80%;
+    }
+
+    .home-content {
+        display: block;
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .wizard {
+        width: 60%;
+        margin: 0px auto;
+    }
+
+    .wizard img {
+        width: 100%;
+    }
+
+    .magic {
+        width: 100%;
+        display: block;
+    }
+
+    .magic h3 {
+        font-family: cinzel, 'Times New Roman';
+        font-size: 1.9rem;
+        width: 100%;
+        text-align: center;
+        margin-top: 40px;
+        color: #59F36D;
+    }
+
+    .magic p {
+        width: 100%;
+        font-family: poppins, 'sans serif';
+        font-size: 1rem;
+        text-align: center;
+        color: #F8F4EA;
+        margin-top: 20px;
+    }
+
+    button {
+        display: block;
+        margin: 50px auto;
+        padding: 10px 40px;
+        background-color: #59F36D;
+        font-family: poppins, 'sans serif';
+        font-weight: 600;
+        font-size: 1em;
+        color: #042F09;
+        border: 1px solid transparent;
+        border-radius: 5px;
+        box-shadow: 2px 2px 10px 0px #00000073;
+    }
+
+}
+
+
+@media only screen and (min-width: 769px) and (max-width: 1234px) {
+    
+    main {
+        display: grid;
+        width: 100%;
+        height: 90%;
+        grid-template: repeat(6, 1fr) / 7.5% 20% 20% 5% 20% 20% 7.5%;
+        grid-gap: 5px
+    }
+
+    .home-content {
+        grid-area: 2/ 2 / span 5 / span 5;
+        grid-template: 1fr 1fr 1fr / 2fr 2fr 1fr 2fr 2fr ;
+        width: 100%;
+        height: 100%;
+        display: grid;
+    }
+
+    .magic {
+        display: grid;
+        grid-template: 1fr 1fr 1fr / 1fr;
+        grid-area: 1 / 1 / span 3 / span 2;
+        height: 100%;
+    }
+
+    .wizard {
+        height: 100%;
+        grid-area: 1 / 4 / span 3 / span 2;
+    }
+
+    .wizard img {
+        height: 100%;
+    }
+
+    .magic h3 {
+        grid-area: 1 / 1 / span 1 / span 1;
+        align-self: center;
+        justify-self: center;
+        font-family: cinzel, 'Times New Roman';
+        color: #2DB840;
+        font-weight: 400;
+        font-size: 3rem;
+        line-height: .9;
+    }
+
+    .magic p {
+        grid-area: 2 / 1 / span 1 / span 2;
+        align-self: center;
+        justify-self: center;
+        text-align: center;
+        font-family: poppins, 'sans serif';
+        color: #F8F4EA;
+        font-weight: 400;
+        font-size: 1.5rem;
+    }
+
+    .magic a {
+        grid-area: 3 / 1 / span 1 / span 1;
+        align-self: center;
+        justify-self: center;
+    }
+
+    button {
+        display: block;
+        margin: 50px auto;
+        padding: 10px 40px;
+        background-color: #59F36D;
+        font-family: poppins, 'sans serif';
+        font-weight: 600;
+        font-size: 1em;
+        color: #042F09;
+        border: 1px solid transparent;
+        border-radius: 5px;
+        box-shadow: 2px 2px 10px 0px #00000073;
+    }
+
+}
+
+
+@media only screen and (min-width: 1235px) {
+    
+    html {
+        overflow: hidden;
+    }
+    
+    body {
+        height: 100%;
+        width: 100%;
+    }
+    
+    main {
+        height: 80%;
+    }
+
+    .wizard img {
+        position: absolute;
+        height: 170%;
+        left: 40%;
+        top: -300px;
+        opacity: .75;
+        z-index: -1;
+    }
+
+    .home-content {
+        display: grid;
+        grid-template: repeat(3, 1fr) / 1fr;
+        margin-left: 10%;
+        width: 50%;
+        height: 100%;
+    }
+
+    .magic {
+        display: grid;
+        grid-template: repeat(3, 1fr) / 1fr;
+        grid-area: 1 / 1 / span 3 / span 1;
+    }
+
+    .magic h3 {
+        grid-area: 1 / 1 / span 1 / span 1;
+        align-self: center;
+        justify-self: center;
+        font-family: cinzel, 'Times New Roman';
+        color: #59F36D;
+        font-weight: 400;
+        font-size: 5rem;
+        line-height: .9;
+        opacity: .9;
+    }
+
+    .magic p {
+        grid-area: 2 / 1 / span 1 / span 2;
+        margin: 0px 10%;
+        align-self: center;
+        justify-self: center;
+        text-align: center;
+        font-family: poppins, 'sans serif';
+        color: #F8F4EA;
+        font-weight: 400;
+        font-size: 2rem;
+    }
+
+    .magic a {
+        grid-area: 3 / 1 / span 1 / span 1;
+        align-self: center;
+        justify-self: center;
+    }
+
+    button {
+        display: block;
+        margin: 50px auto;
+        padding: 20px 80px;
+        background-color: #59F36D;
+        font-family: poppins, 'sans serif';
+        font-weight: 600;
+        font-size: 1.5em;
+        color: #042F09;
+        border: 1px solid transparent;
+        border-radius: 5px;
+        box-shadow: 2px 2px 10px 0px #00000073;
+        opacity: .8;
+    }
+
+}
+
+
+@media only screen and (min-width: 1236px) {
+    
+    .wizard img {
+        position: absolute;
+        height: 200%;
+        left: 45%;
+        top: -450px;
+        opacity: .75;
+        z-index: -1;
+    }
+
+    .home-content {
+        display: grid;
+        grid-template: repeat(3, 1fr) / 1fr;
+        margin-left: 5%;
+        width: 50%;
+        height: 100%;
+    }
+
+}
+
+/* @media only screen and (max-width: 860px) {
+
+    main {
+        display: block;
+        width: 100%;
+    }
+
+    .home-content {
+        width: 100%;
+        height: 100%;
+    }
+
+    .wizard {
+        margin: 40px 0px 10px 0px;
+        width: 100%;
+    }
+
+    .wizard img {
+        display: block;
+        width: 50%;
+        margin: 0px auto;
+    }
+
+    .magic {
+        display: block;
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .magic h3 {
+        font-family: 'cinzel';
+        font-weight: 400;
+        color: #59F36D;
+        font-size: 1.75rem;
+        width: 100%;
+        text-align: center;
+        line-height: .9;
+    }
+
+}
+
+
+@media only screen and (min-width: 860px) {
+
+    main {
+        display: grid;
+        margin-top: 20px;
+        grid-template: repeat(8, 1fr) / 50px repeat(6, 1fr) 50px;
+        grid-area: 2 / 1 / 7 / 7;
+        grid-gap: 3px 3px;
+    }
+
+    .home-content {
+        display: grid;
+        justify-content: space-around;
+        grid-template: repeat(3, 1fr) / .5fr 1.5fr repeat(2, 1fr);
+        grid-area: 1 / 2 / span 7 / span 6;
+        grid-gap: 10px 10px;
+    }
+
+    .magic {
+        display: grid;
+        height: 100%;
+        grid-template: 1fr 1fr .5fr / 1fr;
+        grid-area: 1 / 2 / span 3 / span 1;
+        align-items: center;
+        grid-gap: 10px 0px;
+    }
+
+    .magic h3 {
+        display: grid;
+        font-family: 'cinzel';
+        font-weight: 400;
+        color: #59F36D;
+        font-size: 2.75em;
+        width: 100%;
+        text-align: center;
+        line-height: .9;
+        align-self: end;
+    }
+
+    .magic p {
+        align-self: center;
+        color: #F8F4EA;
+        font-family: poppins;
+        font-weight: 400;
+        font-size: 1.2em;
+        text-align: center;
+    }
+
+    .wizard {
+        grid-area: 1 / 3 / span 4 / span 2;
+    }
+
+    .wizard img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .magic a {
+        justify-self: center;
+    }
+
+    .magic button {
+        display: grid;
+        align-self: start;
+        justify-self: center;
+        padding: 10px 40px;
+        background-color: #59F36D;
+        font-family: poppins;
+        font-weight: 600;
+        font-size: 1em;
+        color: #042F09;
+        border: 1px solid transparent;
+        border-radius: 5px;
+        grid-area: 3 / 1 / span 1 / span 1;
+        box-shadow: 2px 2px 10px 0px #00000073;
+    }
+
+    .magic button:hover {
+        background-color: #097718;
+        color: #B8FAC1;
+        cursor: pointer;
+        transition: 175ms all ease-in-out;
+    }
+
+    .magic button:active {
+        background-color: #2DB840;
+        color: #F8F4EA;
+        cursor: pointer;
+        transition: 100ms all ease-in-out;
+    }
+
+}
+
+@media only screen and (min-width: 1160px) {
+
+    main {
+        display: grid;
+        margin-top: 20px;
+        grid-template: repeat(8, 1fr) / 50px repeat(6, 1fr) 50px;
+        grid-area: 2 / 1 / 7 / 7;
+        grid-gap: 3px 3px;
+    }
+
+    .home-content {
+        display: grid;
+        justify-content: space-around;
+        grid-template: repeat(3, 1fr) / .5fr 1.5fr repeat(2, 1fr);
+        grid-area: 1 / 2 / span 7 / span 6;
+        grid-gap: 10px 10px;
+    }
+
+    .magic {
+        display: grid;
+        height: 100%;
+        grid-template: 1fr 1fr .5fr / 1fr;
+        grid-area: 1 / 2 / span 3 / span 1;
+        align-items: center;
+        grid-gap: 10px 0px;
+    }
+
+    .magic h3 {
+        display: grid;
+        font-family: 'cinzel';
+        font-weight: 400;
+        color: #59F36D;
+        font-size: 4em;
+        width: 100%;
+        text-align: center;
+        line-height: .9;
+        align-self: end;
+    }
+
+    .magic p {
+        align-self: center;
+        color: #F8F4EA;
+        font-family: poppins;
+        font-weight: 400;
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    .wizard {
+        grid-area: 1 / 3 / span 4 / span 2;
+    }
+
+    .wizard img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .magic a {
+        justify-self: center;
+    }
+
+    .magic button {
+        display: grid;
+        align-self: start;
+        justify-self: center;
+        padding: 10px 40px;
+        background-color: #59F36D;
+        font-family: poppins;
+        font-weight: 600;
+        font-size: 1em;
+        color: #042F09;
+        border: 1px solid transparent;
+        border-radius: 5px;
+        grid-area: 3 / 1 / span 1 / span 1;
+        box-shadow: 2px 2px 10px 0px #00000073;
+    }
+
+    .magic button:hover {
+        background-color: #097718;
+        color: #B8FAC1;
+        cursor: pointer;
+        transition: 175ms all ease-in-out;
+    }
+
+    .magic button:active {
+        background-color: #2DB840;
+        color: #F8F4EA;
+        cursor: pointer;
+        transition: 100ms all ease-in-out;
+    }
+
+} */
+
+

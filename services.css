@@ -1,0 +1,314 @@
+@media only screen and (min-width: 860px) {
+
+    main {
+        display: grid;
+        margin-top: 40px;
+        grid-template: 100px repeat(3, 50px 175px 50px 25px) 100px / 100px repeat(3, 1fr) 25px repeat(3, 1fr) 100px;
+        grid-area: 2 / 1 / 7 / 7;
+        grid-gap: 20px 5px;
+    }
+
+    .services-header {
+        display: grid;
+        grid-area: 1 / 3 / span 1 / span 5;
+        justify-self: center;
+        align-items: start;
+        font-family: cinzel;
+        color: #9656F0;
+        font-size: 3rem;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .service-img {
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+        opacity: 0.9;
+        border: 1px solid transparent;
+        border-radius: 5px;
+        box-shadow: 2px 2px 10px 0px #00000073;
+    }
+
+    .service-name {
+        text-align: center;
+        align-self: center;
+        font-family: poppins;
+        color: #59F36D;
+        font-size: 1.6rem;
+        font-weight: 600;
+    }
+
+    .service-summary {
+        text-align: center;
+        font-family: poppins;
+        font-size: .8rem;
+        color: #F8F4EA;
+        font-weight: 400;
+        width: 95%;
+        justify-self: center;
+        align-self: center;
+    }
+
+    .service-link {
+        justify-self: center;
+        align-self: center;
+    }
+
+    .service-img-1 {
+        grid-area: 2 / 2 / span 3 / span 3;
+    }
+
+    .service-name-1 {
+        grid-area: 2 / 6 / span 1 / span 3;
+    }
+
+    .service-summary-1 {
+        grid-area: 3 / 6 / span 1 / span 3;
+    }
+
+    .service-1-link {
+        grid-area: 4 / 6 / span 1 / span 3;
+    }
+
+    .service-img-2 {
+        grid-area: 6 / 6 / span 3 / span 3;
+    }
+
+    .service-name-2 {
+        grid-area: 6 / 2 / span 1 / span 3;
+    }
+
+    .service-summary-2 {
+        grid-area: 7 / 2 / span 1 / span 3;
+    }
+
+    .service-2-link {
+        grid-area: 8 / 2 / span 1 / span 3;
+    }
+
+    .service-img-3 {
+        grid-area: 10 / 2 / span 3 / span 3;
+    }
+
+    .service-name-3 {
+        grid-area: 10 / 6 / span 1 / span 3;
+    }
+
+    .service-summary-3 {
+        grid-area: 11 / 6 / span 1 / span 3;
+    }
+
+    .service-3-link {
+        grid-area: 12 / 6 / span 1 / span 3;
+    }
+
+    button {
+        display: grid;
+        align-self: start;
+        justify-self: center;
+        padding: 10px 30px;
+        background-color: #59F36D;
+        font-family: poppins;
+        font-weight: 600;
+        font-size: .9em;
+        color: #042F09;
+        border: 1px solid transparent;
+        border-radius: 5px;
+        grid-area: 3 / 1 / span 1 / span 1;
+        box-shadow: 2px 2px 10px 0px #00000073;
+    }
+
+    .tech-stack {
+        display: flex;
+        grid-area: 14 / 1 / span 1 / span 9;
+        height: 100px;
+        background-color: #F8F4EA;
+        border-top: 2px solid #6430AF;
+        box-shadow: 0px 3px 5px 0px #6530afbe, 0px -3px 5px 0px #6430AFbe;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .our-stack {
+        font-family: cinzel;
+        font-size: 1.75rem;
+        font-weight: 400;
+        color: #2DB840;
+    }
+
+    .icon-group {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .tech-stack-icon {
+        height: 80%;
+        margin: 0px 5px;
+    }
+
+}
+
+@media only screen and (min-width: 1160px) {
+
+    main {
+        display: grid;
+        margin-top: 40px;
+        grid-template: 100px repeat(3, 50px 175px 50px 25px) 100px / 100px repeat(3, 1fr) 25px repeat(3, 1fr) 100px;
+        grid-area: 2 / 1 / 7 / 7;
+        grid-gap: 20px 5px;
+    }
+
+    .services-header {
+        display: grid;
+        grid-area: 1 / 3 / span 1 / span 5;
+        justify-self: center;
+        align-items: start;
+        font-family: cinzel;
+        color: #9656F0;
+        font-size: 3rem;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .service-img {
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+        opacity: 0.9;
+        border: 1px solid transparent;
+        border-radius: 5px;
+        box-shadow: 2px 2px 10px 0px #00000073;
+    }
+
+    .service-name {
+        text-align: center;
+        align-self: center;
+        font-family: poppins;
+        color: #59F36D;
+        opacity: .9;
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    .service-summary {
+        text-align: center;
+        font-family: poppins;
+        font-size: 1rem;
+        color: #F8F4EA;
+        font-weight: 400;
+        width: 95%;
+        justify-self: center;
+    }
+
+    .service-link {
+        justify-self: center;
+        align-self: center;
+    }
+
+    .service-img-1 {
+        grid-area: 2 / 2 / span 3 / span 3;
+    }
+
+    .service-name-1 {
+        grid-area: 2 / 6 / span 1 / span 3;
+    }
+
+    .service-summary-1 {
+        grid-area: 3 / 6 / span 1 / span 3;
+    }
+
+    .service-1-link {
+        grid-area: 4 / 6 / span 1 / span 3;
+    }
+
+    .service-img-2 {
+        grid-area: 6 / 6 / span 3 / span 3;
+    }
+
+    .service-name-2 {
+        grid-area: 6 / 2 / span 1 / span 3;
+    }
+
+    .service-summary-2 {
+        grid-area: 7 / 2 / span 1 / span 3;
+    }
+
+    .service-2-link {
+        grid-area: 8 / 2 / span 1 / span 3;
+    }
+
+    .service-img-3 {
+        grid-area: 10 / 2 / span 3 / span 3;
+    }
+
+    .service-name-3 {
+        grid-area: 10 / 6 / span 1 / span 3;
+    }
+
+    .service-summary-3 {
+        grid-area: 11 / 6 / span 1 / span 3;
+    }
+
+    .service-3-link {
+        grid-area: 12 / 6 / span 1 / span 3;
+    }
+
+    button {
+        display: grid;
+        align-self: start;
+        justify-self: center;
+        padding: 10px 30px;
+        background-color: #59F36D;
+        opacity: .9;
+        font-family: poppins;
+        font-weight: 600;
+        font-size: 1em;
+        color: #042F09;
+        border: 1px solid transparent;
+        border-radius: 5px;
+        grid-area: 3 / 1 / span 1 / span 1;
+        box-shadow: 2px 2px 10px 0px #00000073;
+    }
+
+    .tech-stack {
+        display: flex;
+        grid-area: 14 / 1 / span 1 / span 9;
+        height: 100px;
+        background-color: #F8F4EA;
+        border-top: 2px solid #6430AF;
+        box-shadow: 0px 3px 5px 0px #6530afbe, 0px -3px 5px 0px #6430AFbe;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .our-stack {
+        font-family: cinzel;
+        font-size: 2.5rem;
+        font-weight: 400;
+        color: #2DB840;
+    }
+
+    .icon-group {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .tech-stack-icon {
+        height: 80%;
+        margin: 0px 15px;
+    }
+
+}
+
+@media only screen and (min-width: 1410px) {
+
+    .service-summary {
+        font-size: 1.15rem;
+    }
+
+}
