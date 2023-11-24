@@ -89,7 +89,7 @@
 
     main {
         display: grid;
-        margin-top: 40px;
+        margin-top: 140px;
         grid-template: 100px repeat(3, 50px 175px 50px 25px) 100px / 100px repeat(3, 1fr) 25px repeat(3, 1fr) 100px;
         grid-area: 2 / 1 / 7 / 7;
         grid-gap: 20px 5px;
@@ -242,7 +242,7 @@
 
     main {
         display: grid;
-        margin-top: 40px;
+        margin-top: 140px;
         grid-template: 100px repeat(3, 50px 175px 50px 25px) 100px / 100px repeat(3, 1fr) 25px repeat(3, 1fr) 100px;
         grid-area: 2 / 1 / 7 / 7;
         grid-gap: 20px 5px;
