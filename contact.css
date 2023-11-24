@@ -1,0 +1,20 @@
+main {
+    margin-top: 150px;
+    width: 100%;
+}
+
+.contact-container img {
+    display: block;
+    width: 60%;
+    margin: 0px auto 20px auto;
+}
+
+.contact-container {
+    display: block;
+    width: 90%;
+    margin: 0px 5% 20px 5%;
+}
+
+.contact-form {
+    width: 100%;
+}
