@@ -1,4 +1,4 @@
-@media only screen and (min-width: 320px) {
+@media only screen and (min-width: 320px) and (max-width: 800px) {
 
     main {
         display: absolute;
@@ -18,7 +18,8 @@
 
 
     .service-img {
-        width: 90%;
+        height: 100%;
+        width: auto;
         margin: 40px 5% 20px 5%;
     }
 
@@ -85,11 +86,12 @@
 
 
 
-@media only screen and (min-width: 860px) {
+@media only screen and (min-width: 801px) {
 
     main {
         display: grid;
-        margin-top: 140px;
+        width: 90%;
+        margin: 140px 5% auto 5%;
         grid-template: 100px repeat(3, 50px 175px 50px 25px) 100px / 100px repeat(3, 1fr) 25px repeat(3, 1fr) 100px;
         grid-area: 2 / 1 / 7 / 7;
         grid-gap: 20px 5px;
@@ -194,7 +196,7 @@
         display: grid;
         align-self: start;
         justify-self: center;
-        padding: 10px 30px;
+        padding: 3px 30px;
         background-color: #59F36D;
         font-family: poppins;
         font-weight: 600;
@@ -242,7 +244,7 @@
 
     main {
         display: grid;
-        margin-top: 140px;
+        margin-top: 40px;
         grid-template: 100px repeat(3, 50px 175px 50px 25px) 100px / 100px repeat(3, 1fr) 25px repeat(3, 1fr) 100px;
         grid-area: 2 / 1 / 7 / 7;
         grid-gap: 20px 5px;
